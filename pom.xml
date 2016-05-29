@@ -11,7 +11,7 @@
   <groupId>com.floragunn</groupId>
   <artifactId>ldaptive-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.1.0-fg-fork1</version>
+  <version>1.1.0-fg-fork2-SNAPSHOT</version>
   <name>LDAPTIVE PARENT</name>
   <description>Java LDAP API</description>
   <url>http://www.ldaptive.org</url>
@@ -42,7 +42,7 @@
    <scm>
      <connection>scm:git:git@github.com:floragunncom/ldaptive.git</connection>
      <developerConnection>scm:git:git@github.com:floragunncom/ldaptive.git</developerConnection>
-     <tag>v1.1.0-fg-fork1</tag>
+     <tag>HEAD</tag>
   </scm>
   
   <developers>
