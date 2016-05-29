@@ -5,22 +5,21 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ldaptive-templates</artifactId>
   <packaging>jar</packaging>
-  <version>1.1.0</version>
   <name>LDAPTIVE TEMPLATES</name>
   <description>Templating functionality for aggregating LDAP searches</description>
   <parent>
-    <groupId>org.ldaptive</groupId>
+    <groupId>com.floragunn</groupId>
     <artifactId>ldaptive-parent</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
   </parent>
 
   <dependencies>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-json</artifactId>
     </dependency>
     <dependency>

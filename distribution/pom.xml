@@ -5,107 +5,106 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ldaptive-distribution</artifactId>
   <packaging>jar</packaging>
-  <version>1.1.0</version>
   <name>LDAPTIVE DISTRIBUTION</name>
   <description>Ldaptive distribution</description>
   <parent>
-    <groupId>org.ldaptive</groupId>
+    <groupId>com.floragunn</groupId>
     <artifactId>ldaptive-parent</artifactId>
-    <version>1.1.0</version>
+     <version>1.1.1-SNAPSHOT</version>
   </parent>
 
   <dependencies>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-apache</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-apache</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-jldap</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+     <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-jldap</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-opendj</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-opendj</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-unboundid</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-unboundid</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-json</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-json</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-templates</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-templates</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-webapp</artifactId>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-beans</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-beans</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-ldapi</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-ldapi</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>

@@ -5,13 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ldaptive-integration</artifactId>
   <packaging>jar</packaging>
-  <version>1.1.0</version>
   <name>LDAPTIVE INTEGRATION TESTS</name>
   <description>Ldaptive server integration tests</description>
   <parent>
-    <groupId>org.ldaptive</groupId>
+    <groupId>com.floragunn</groupId>
     <artifactId>ldaptive-parent</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
   </parent>
 
   <properties>
@@ -20,17 +19,17 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-templates</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.ldaptive</groupId>
+      <groupId>com.floragunn</groupId>
       <artifactId>ldaptive-beans</artifactId>
       <scope>test</scope>
     </dependency>
@@ -229,7 +228,7 @@
       <id>apache</id>
       <dependencies>
         <dependency>
-          <groupId>org.ldaptive</groupId>
+          <groupId>com.floragunn</groupId>
           <artifactId>ldaptive-apache</artifactId>
           <scope>test</scope>
         </dependency>
@@ -242,7 +241,7 @@
       <id>jldap</id>
       <dependencies>
         <dependency>
-          <groupId>org.ldaptive</groupId>
+          <groupId>com.floragunn</groupId>
           <artifactId>ldaptive-jldap</artifactId>
           <scope>test</scope>
         </dependency>
@@ -255,7 +254,7 @@
       <id>opendj</id>
       <dependencies>
         <dependency>
-          <groupId>org.ldaptive</groupId>
+          <groupId>com.floragunn</groupId>
           <artifactId>ldaptive-opendj</artifactId>
           <scope>test</scope>
         </dependency>
@@ -268,7 +267,7 @@
       <id>unboundid</id>
       <dependencies>
         <dependency>
-          <groupId>org.ldaptive</groupId>
+          <groupId>com.floragunn</groupId>
           <artifactId>ldaptive-unboundid</artifactId>
           <scope>test</scope>
         </dependency>
